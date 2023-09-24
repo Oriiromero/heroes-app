@@ -4,6 +4,16 @@
       "id": 1,
       "user": "John Doe",
       "email": "john.due@gmail.com"
+    },
+    {
+      "email": "aw",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "email": "alvaro@gmail.com",
+      "password": "123456",
+      "id": 3
     }
   ],
   "heroes": [

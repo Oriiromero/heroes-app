@@ -49,6 +49,8 @@ export class AuthService {
     localStorage.clear();
   }
 
-
+  register(user: object): Observable<Object> {
+    return this.http.post<Object>(`${this.baseUrl}/users`, user);
+  }
 
 }
